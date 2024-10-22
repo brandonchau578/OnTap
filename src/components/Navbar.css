@@ -1,0 +1,41 @@
+.Navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom:1px solid black;
+    width:100%;
+    box-sizing: border-box;
+    color:white;
+    font-size: 25px;
+    overflow: visible;
+}
+.nav-links{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    gap:1.5rem;
+    
+}
+.nav-links li {
+    margin: 0 15px; /* Space between items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: transform 0.3s ease; 
+    display:inline-block
+}
+
+.nav-links a:hover {
+    transform: scale(1.2); /* Change to 1.5 for better visibility */
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
